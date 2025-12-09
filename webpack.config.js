@@ -11,8 +11,16 @@ const copy_files = [
 module.exports = {
   devtool: "source-map",
   entry: './src/index.tsx',
+  experiments: {
+    topLevelAwait: false,
+  },
   module: {
     rules: [
+      {
+        test: /\.js$/,
+        include: /node_modules\/@novnc/,
+        type: 'javascript/auto',
+      },
       {
         test: /\.(ts|tsx|jsx)?$/,
         use: [

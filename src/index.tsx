@@ -1,6 +1,5 @@
 import "cockpit-dark-theme";
-//import "@patternfly/patternfly/patternfly-base.scss";
-import '@patternfly/react-core/dist/styles/base.css';
+import "@patternfly/patternfly/patternfly.css";
 
 import React from 'react';
 import ReactDOM from 'react-dom';

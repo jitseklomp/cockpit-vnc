@@ -41,6 +41,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "@novnc/novnc": "1.5.0",
     "@patternfly/patternfly": "5.0.0-prerelease.10",
     "@patternfly/react-core": "5.0.0-prerelease.13",
     "@patternfly/react-icons": "5.0.0-prerelease.7",
